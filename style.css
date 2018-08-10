@@ -1,0 +1,133 @@
+/*
+Theme Name: Personal Website
+Theme URI:  https://nitingarud.in
+Author: the WordPress team
+Author URI: https://nitingarud.in
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: Personal Website
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #90EE90;
+	width: 100%;
+}
+.container{
+	background: #fff;
+	width: 85%;
+	height: 330px;
+	margin: 0px auto;
+	/*border: 2px solid #70CC70;*/
+}
+.header-top{
+	background: #fff;
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+}
+a{
+	color: #90EE90;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	margin: 0px;
+	height: 79px;
+}
+.logo{
+	float: left;
+	width: 23%;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+.logo h1{
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #90EE90;
+}
+.menu{
+	float: right;
+	width: 77%;
+}
+.menu ul{
+	list-style: none;
+	margin: 0px;
+	padding-top: 10px;
+}
+.menu li.active a{
+	padding: 10px;
+	text-align: center;;
+	color: #90EE90;
+	font-size: 16px;
+	border-bottom: 4px solid #90EE90;
+}
+.menu li.active a:hover{
+	border-bottom: none;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;;
+	color: #90EE90;
+	font-size: 16px;
+	border-bottom: 4px solid #90EE90;
+}
+.menu li{
+	display: inline;
+	padding: 10px;
+	color: #000;
+	font-size: 16px;
+	width: 4%;
+}
+.menu li a{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	text-transform: none;
+
+}
+.menu li a:hover{
+	color: #90EE90;
+	border-bottom: 4px solid #90EE90;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 10px 0;
+
+}
+.container-fluid{
+	background: #fff;
+	width: 85%;
+	height: auto;
+}
+.photo{
+	float: left;
+	width: 35%;
+	padding: 0 0 0 0;
+	text-align: center;
+	border-right:4px solid #90EE90;  
+}
+.photo img{
+	transform: rotate(90deg);
+	width: 100%;
+}
+.content{
+	float: right;
+	width: 55%;
+}
+h2 b{
+	color: #90EE90;
+}
+.cv input[type="button"]{
+	border: none;
+	border: 1px solid #90EE90;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
